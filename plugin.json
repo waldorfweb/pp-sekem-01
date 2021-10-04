@@ -10,10 +10,10 @@
   "authorIcon": "icon_author_xs.png",
   "email": "",
   "phone": "",
-  "description": "Waldorf theme for Ceres.",
+  "description": "Sekem theme for Ceres.",
   "shortDescription": {
-    "de": "Glomer theme 02 für Ceres.",
-    "en": "Glomer theme 02 for Ceres."
+    "de": "Sekem theme 02 für Ceres.",
+    "en": "Sekem theme 02 for Ceres."
   },
   "namespace": "Sekem2",
   "author": "Universnatur GmbH",

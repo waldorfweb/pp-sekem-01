@@ -31,12 +31,12 @@ $cyan:                      #17a2b8 !default;
 
 // Legacy: Do not remove!
 // This variables are filled with the values from the plugin config
-$brand-primary:             #D31A20 !default; 
-$brand-secondary:           #c2c2a8 !default;
-$brand-success:             #a5a592 !default;
-$brand-info:                #3B5C27 !default;
-$brand-warning:             #A86064 !default;
-$brand-danger:              #dc3545 !default;
+$brand-primary:             #3f4785 !default; 
+$brand-secondary:           #22295C !default;
+$brand-success:             $green !default;
+$brand-info:                $cyan !default;
+$brand-warning:             $yellow !default;
+$brand-danger:              $red !default;
 
 @function check-color($color, $fallback) {
   @if type-of($color) != color {
@@ -45,12 +45,12 @@ $brand-danger:              #dc3545 !default;
   @return $color;
 }
 
-$primary:                   check-color($brand-primary, #D31A20) !default;
-$secondary:                 check-color($brand-secondary, #c2c2a8) !default;
-$success:                   check-color($brand-success, #a5a592) !default;
-$info:                      check-color($brand-info, #a5a592) !default;
-$warning:                   check-color($brand-warning, #A86064) !default;
-$danger:                    check-color($brand-danger, #dc3545) !default;
+$primary:                   check-color($brand-primary, #3f4785) !default;
+$secondary:                 check-color($brand-secondary, #22295C) !default;
+$success:                   check-color($brand-success, $green) !default;
+$info:                      check-color($brand-info, $cyan) !default;
+$warning:                   check-color($brand-warning, $yellow) !default;
+$danger:                    check-color($brand-danger, $red) !default;
 $light:                     $gray-100 !default;
 $dark:                      $gray-800 !default;
 
