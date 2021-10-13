@@ -1,11 +1,11 @@
 <?php
 
-namespace Waldorfshop2\Widgets\Header;
+namespace SEKEM1\Widgets\Header;
 
 use Ceres\Widgets\Helper\BaseWidget;
 
 class CheckoutHeaderWidget extends BaseWidget
 {
 
-    protected $template = "Waldorfshop2::Widgets.Header.CheckoutHeaderWidget";
+    protected $template = "SEKEM1::Widgets.Header.CheckoutHeaderWidget";
 }
