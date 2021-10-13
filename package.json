@@ -4,7 +4,7 @@
     "version": "5.0.33",
     "repository": {
         "type": "git",
-        "url": "https://github.com/waldorfweb/pp-waldorfshop-02.git"
+        "url": "https://github.com/waldorfweb/pp-sekem-01.git"
     },
     "scripts": {
         "start": "webpack --watch --progress",
