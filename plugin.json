@@ -1,10 +1,10 @@
 {
     "version": "5.0.4",
     "license": "AGPL-3.0",
-    "name": "Sekem1",
+    "name": "Sekem2",
     "marketplaceName": {
-        "de": "Sekem1",
-        "en": "Sekem1"
+        "de": "Sekem2",
+        "en": "Sekem2"
     },
     "pluginIcon": "icon_plugin_xs.png",
     "authorIcon": "icon_author_xs.png",
@@ -15,7 +15,7 @@
         "de": "Waldorf theme 02 für Ceres.",
         "en": "Waldorf theme 02 for Ceres."
     },
-    "namespace": "Sekem1",
+    "namespace": "Sekem2",
     "author": "Universnatur GmbH",
     "keywords": [
         "plentymarkets",
@@ -37,5 +37,5 @@
         "name": "Head: Google Tag Manager",
         "description": "Add data layer before google tag manager"
     }],
-    "serviceProvider": "Sekem1\\Providers\\ThemeServiceProvider"
+    "serviceProvider": "Sekem2\\Providers\\ThemeServiceProvider"
 }
