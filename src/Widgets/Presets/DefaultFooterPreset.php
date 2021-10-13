@@ -1,6 +1,6 @@
 <?php
 
-namespace Glomer2\Widgets\Presets;
+namespace Waldorfshop2\Widgets\Presets;
 
 use Ceres\Config\CeresConfig;
 use Ceres\Widgets\Helper\PresetHelper;
@@ -58,19 +58,19 @@ class DefaultFooterPreset implements ContentPreset
         $listGridPreset = $this->preset->createWidget("Ceres::FourColumnWidget");
 
         $listGridPreset
-            ->createChild("first", "Glomer2::FooterTitleWidget")
+            ->createChild("first", "Waldorfshop2::FooterTitleWidget")
             ->withSetting("text", 'Service Hotline');
 
         $listGridPreset
-            ->createChild("first", "Glomer2::FooterTextWidget")
+            ->createChild("first", "Waldorfshop2::FooterTextWidget")
             ->withSetting("text", $this->getServiceText());
 
 
         $listGridPreset
-            ->createChild("second", "Glomer2::FooterTitleWidget")
+            ->createChild("second", "Waldorfshop2::FooterTitleWidget")
             ->withSetting("text", 'Shop Service');
         $listGridPreset
-            ->createChild("second", "Glomer2::FooterListWidget")
+            ->createChild("second", "Waldorfshop2::FooterListWidget")
             ->withSetting("entries", [
                 [
                     "text" => "Item 1",
@@ -97,10 +97,10 @@ class DefaultFooterPreset implements ContentPreset
 
 
         $listGridPreset
-            ->createChild("third", "Glomer2::FooterTitleWidget")
+            ->createChild("third", "Waldorfshop2::FooterTitleWidget")
             ->withSetting("text", 'Information');
         $listGridPreset
-            ->createChild("third", "Glomer2::FooterLegalInformationWidget")
+            ->createChild("third", "Waldorfshop2::FooterLegalInformationWidget")
             ->withSetting("showCancellationRights", true)
             ->withSetting("showLegalDisclosure", true)
             ->withSetting("showPrivacyPolicy", true)
@@ -110,14 +110,14 @@ class DefaultFooterPreset implements ContentPreset
             ->withSetting("cancellationFormContainer.cancellationPdfPath", "");
 
         $listGridPreset
-            ->createChild("fourth", "Glomer2::FooterTitleWidget")
+            ->createChild("fourth", "Waldorfshop2::FooterTitleWidget")
             ->withSetting("text", 'Newsletter');
 
         $listGridPreset
             ->createChild("fourth", "Ceres::NewsletterWidget")
             ->withSetting("customClass", 'dia-footer-newsletter');
 
-        $this->preset->createWidget("Glomer2::ImageListWidget")
+        $this->preset->createWidget("Waldorfshop2::ImageListWidget")
         ->withSetting("entries", []);
     }
 

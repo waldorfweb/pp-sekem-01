@@ -1,10 +1,10 @@
 <?php
 
-namespace Glomer2\Widgets\Common;
+namespace Waldorfshop2\Widgets\Common;
 
 use Ceres\Widgets\Helper\BaseWidget;
 
 class SpacerWidget extends BaseWidget
 {
-    protected $template = "Glomer2::Widgets.Common.SpacerWidget";
+    protected $template = "Waldorfshop2::Widgets.Common.SpacerWidget";
 }

@@ -18,7 +18,7 @@ $gray-800:                  #343a40 !default;
 $gray-900:                  #212529 !default;
 $black:                     #000 !default;
 
-$blue:                      #3f4785 !default;
+$blue:                      #008ebd !default;
 $indigo:                    #6610f2 !default;
 $purple:                    #6f42c1 !default;
 $pink:                      #e83e8c !default;
@@ -31,8 +31,8 @@ $cyan:                      #17a2b8 !default;
 
 // Legacy: Do not remove!
 // This variables are filled with the values from the plugin config
-$brand-primary:             #3f4785 !default; 
-$brand-secondary:           #22295C !default;
+$brand-primary:             #b92a38; 
+$brand-secondary:           $gray-600 !default;
 $brand-success:             $green !default;
 $brand-info:                $cyan !default;
 $brand-warning:             $yellow !default;
@@ -45,8 +45,8 @@ $brand-danger:              $red !default;
   @return $color;
 }
 
-$primary:                   check-color($brand-primary, #3f4785) !default;
-$secondary:                 check-color($brand-secondary, #22295C) !default;
+$primary:                   check-color($brand-primary, $blue) !default;
+$secondary:                 check-color($brand-secondary, $gray-600) !default;
 $success:                   check-color($brand-success, $green) !default;
 $info:                      check-color($brand-info, $cyan) !default;
 $warning:                   check-color($brand-warning, $yellow) !default;

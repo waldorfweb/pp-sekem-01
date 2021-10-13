@@ -1,12 +1,12 @@
 <?php
 
-namespace Glomer2\Widgets\Common;
+namespace Waldorfshop2\Widgets\Common;
 
 use Ceres\Widgets\Helper\BaseWidget;
 
 class ImageListWidget extends BaseWidget
 {
-    protected $template = "Glomer2::Widgets.Common.ImageListWidget";
+    protected $template = "Waldorfshop2::Widgets.Common.ImageListWidget";
 
     protected function getTemplateData($widgetSettings, $isPreview)
     {

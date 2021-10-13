@@ -763,22 +763,10 @@ var render = function() {
                     [
                       _vm._v(
                         "\n                    " +
-                          _vm._s(_vm._f("itemName")(_vm.item))
-                      ),
-                      _vm._l(_vm.item.groupedAttributes, function(attribute) {
-                        return _c("span", [
-                          _vm._v(
-                            _vm._s(
-                              _vm._f("translate")(
-                                "Ceres::Template.itemGroupedAttribute",
-                                attribute
-                              )
-                            )
-                          )
-                        ])
-                      })
-                    ],
-                    2
+                          _vm._s(_vm._f("itemName")(_vm.item)) +
+                          "\n                    "
+                      )
+                    ]
                   ),
                   _vm._v(" "),
                   !_vm.isBook
@@ -789,7 +777,7 @@ var render = function() {
                               { staticClass: "item-details__subtitle" },
                               [
                                 _vm._v(
-                                  "\n                        von " +
+                                  "\n                        " +
                                     _vm._s(_vm.item.texts.name3) +
                                     "\n                    "
                                 )
@@ -803,7 +791,7 @@ var render = function() {
                               { staticClass: "item-details__author" },
                               [
                                 _vm._v(
-                                  "\n                         " +
+                                  "\n                        " +
                                     _vm._s(_vm.item.texts.name2) +
                                     "\n                    "
                                 )
